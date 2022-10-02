@@ -7,6 +7,7 @@ screen=pygame.display.set_mode((800,700))
 # icon and caption
 pygame.display.set_caption('poulterer')
 icon=pygame.image.load('001-chicken.png')
+pygame.display.set_icon(icon)
 # chick
 chicks=[pygame.image.load('001-chickenimg.png')]*4
 chickX=900
@@ -29,7 +30,7 @@ ballonX=playerX
 ballonY=playerY-16
 ballonX_change=0
 ballonY_change=10
-pygame.display.set_icon(icon)
+
 def player(x,y):
     screen.blit(playerImg,(x,y))
 def throw_balloons(x,y):
