@@ -52,7 +52,7 @@ while running:
             if event.key==pygame.K_RIGHT:
                 playerX_change=1
         if event.type==pygame.KEYUP:
-            if event.key==pygame.k_LEFT or event.key==pygame.K_RIGHT:
+            if event.key==pygame.K_LEFT or event.key==pygame.K_RIGHT:
                 playerX_change=0
     playerX+=playerX_change
     ballonX=playerX
