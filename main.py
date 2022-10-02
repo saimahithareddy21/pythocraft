@@ -7,7 +7,7 @@ screen=pygame.display.set_mode((800,700))
 # icon and caption
 pygame.display.set_caption('poulterer')
 icon=pygame.image.load('001-chicken.png')
-# chicken
+# chick
 chicks=[pygame.image.load('001-chickenimg.png')]*4
 chickX=900
 chickY=100
