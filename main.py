@@ -2,7 +2,7 @@ import pygame
 import random
 
 pygame.init()
-chick_positions=[(650,50),(700,100),(650,150),(700,200)]
+chick_positions=[(670,50),(720,100),(670,150),(720,200)]
 screen=pygame.display.set_mode((800,700))
 # icon and caption
 pygame.display.set_caption('poulterer')
